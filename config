@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "aplikasi-spp-management"]
+	url = https://github.com/Cittaanggula2/aplikasi-spp-management.git
+	fetch = +refs/heads/*:refs/remotes/aplikasi-spp-management/*
+[branch "master"]
+	remote = aplikasi-spp-management
+	merge = refs/heads/master
+[remote "origin"]
+	url = master
+	fetch = +refs/heads/*:refs/remotes/origin/*
